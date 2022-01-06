@@ -9,7 +9,7 @@ class UserController {
       const user = new User({
         username: username,
         name,
-        password: username,
+        password: name,
         role: "faculty",
         hookEnabled: true,
         avatar: "img/test.jpg",
